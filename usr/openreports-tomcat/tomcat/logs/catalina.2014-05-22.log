@@ -1,0 +1,13 @@
+May 22, 2014 2:45:59 PM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 18245
+May 22, 2014 2:46:00 PM org.apache.jk.common.ChannelSocket processConnection
+SEVERE: Error, processing connection
+java.lang.IndexOutOfBoundsException
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:338)
+	at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:626)
+	at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:583)
+	at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:691)
+	at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:895)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)
+	at java.lang.Thread.run(Thread.java:744)
+

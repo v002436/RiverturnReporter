@@ -1,0 +1,58 @@
+<html>
+
+<head>	
+<meta charset="utf-8">
+	<title>AIR - Asset Inventory Retrieval</title>
+
+	<link rel="stylesheet" media="screen" href="/css/214.css?v=8may2013">
+	<meta name="description" content="A demonstration of what can be accomplished with AIR.">
+
+  <meta HTTP-EQUIV="Pragma" CONTENT="public">
+  <meta HTTP-EQUIV="Cache-Control" CONTENT="max-age=0">
+ 
+  <link href="css/openreports.css" rel="stylesheet" type="text/css">
+  <!-- YUI Dependencies -->
+  <script type="text/javascript" src="js/yui/yahoo-min.js"></script>
+  <script type="text/javascript" src="js/yui/dom-min.js"></script>
+  <script type="text/javascript" src="js/yui/event-min.js"></script>
+  <script type="text/javascript" src="js/yui/animation-min.js"></script>
+  <script type="text/javascript" src="js/yui/dragdrop-min.js"></script>
+  <script type="text/javascript" src="js/yui/connection-min.js"></script>
+  <script type="text/javascript" src="js/yui/container-min.js"></script>
+  <script type="text/javascript" src="js/yui/element-beta-min.js"></script>
+  <script type="text/javascript" src="js/yui/tabview-min.js"></script>
+  <script type="text/javascript" src="js/yui/button-beta-min.js"></script> 
+  <link rel="stylesheet" type="text/css" href="css/yui/container.css" />
+  <link rel="stylesheet" type="text/css" href="css/yui/tabview.css">
+  <link rel="stylesheet" type="text/css" href="css/yui/button.css">    
+  <!-- End YUI Dependencies -->
+  <script type="text/javascript" src="js/highlight.js"></script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script> 
+$(function(){
+  $("#header").load("header.shtml"); 
+  $("#footer").load("footer.shtml"); 
+});
+</script> 
+
+<body class="yui-skin-sam">
+
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+			<h1>AIR - Asset Inventory Retrieval</h1>
+		</header>
+	</section>
+</head>
+
+<div id="header"></div>
+
+		<div class="summary" id="zen-summary" role="article">
+			<hr>
+			<FORM action="/cgi-bin/get_job_results.pl" method="POST">Enter the jobid to get data from SA: <input type="text" name="jobid">  <br><input type="submit" value="Submit"></FORM>
+			<hr>
+		</div>
+	</section>
+
+</body>
+</html>

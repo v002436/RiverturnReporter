@@ -1,0 +1,727 @@
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 6 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 1692 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 884 ms.
+[Server@e05d173]: Startup sequence completed in 2608 ms.
+[Server@e05d173]: 2014-12-26 17:05:08.258 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 6 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 766 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1210 ms.
+[Server@e05d173]: Startup sequence completed in 2014 ms.
+[Server@e05d173]: 2015-01-02 16:30:17.641 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 4 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 917 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1007 ms.
+[Server@e05d173]: Startup sequence completed in 1949 ms.
+[Server@e05d173]: 2015-01-06 18:22:50.114 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-01-06 18:26:33.896 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-01-06 18:27:14.897 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 22 ms.
+[Server@e05d173]: 2015-01-29 17:42:53.078 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-01-29 17:44:18.88 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 4 ms.
+[Server@e05d173]: 2015-01-29 17:52:50.195 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-01-29 17:56:46.274 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 8 ms.
+[Server@e05d173]: 2015-02-16 21:41:11.358 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 3 ms.
+[Server@e05d173]: 2015-02-16 21:50:00.793 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-16 22:11:45.477 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 3 ms.
+[Server@e05d173]: 2015-02-16 22:12:12.916 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-16 22:14:21.176 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 10 ms.
+[Server@e05d173]: 2015-02-16 22:14:42.595 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 10 ms.
+[Server@e05d173]: 2015-02-16 22:19:18.285 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-16 22:20:35.658 SHUTDOWN : System.exit() is called next
+Exception in thread "HSQLDB Connection @55e1a0ee" java.lang.OutOfMemoryError: Java heap space
+	at org.hsqldb.lib.HsqlByteArrayOutputStream.reset(Unknown Source)
+	at org.hsqldb.rowio.RowOutputBinary.reset(Unknown Source)
+	at org.hsqldb.rowio.RowInputBinary.resetRow(Unknown Source)
+	at org.hsqldb.Result.read(Unknown Source)
+	at org.hsqldb.ServerConnection.init(Unknown Source)
+	at org.hsqldb.ServerConnection.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+Exception in thread "HSQLDB Connection @eaecb09" java.lang.OutOfMemoryError: Java heap space
+	at org.hsqldb.lib.HsqlByteArrayOutputStream.reset(Unknown Source)
+	at org.hsqldb.rowio.RowOutputBinary.reset(Unknown Source)
+	at org.hsqldb.rowio.RowInputBinary.resetRow(Unknown Source)
+	at org.hsqldb.Result.read(Unknown Source)
+	at org.hsqldb.ServerConnection.init(Unknown Source)
+	at org.hsqldb.ServerConnection.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+Exception in thread "HSQLDB Connection @12e14ebc" java.lang.OutOfMemoryError: Java heap space
+	at org.hsqldb.lib.HsqlByteArrayOutputStream.reset(Unknown Source)
+	at org.hsqldb.rowio.RowOutputBinary.reset(Unknown Source)
+	at org.hsqldb.rowio.RowInputBinary.resetRow(Unknown Source)
+	at org.hsqldb.Result.read(Unknown Source)
+	at org.hsqldb.ServerConnection.init(Unknown Source)
+	at org.hsqldb.ServerConnection.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+Exception in thread "HSQLDB Connection @5a56182f" java.lang.OutOfMemoryError: Java heap space
+	at org.hsqldb.lib.HsqlByteArrayOutputStream.reset(Unknown Source)
+	at org.hsqldb.rowio.RowOutputBinary.reset(Unknown Source)
+	at org.hsqldb.rowio.RowInputBinary.resetRow(Unknown Source)
+	at org.hsqldb.Result.read(Unknown Source)
+	at org.hsqldb.ServerConnection.init(Unknown Source)
+	at org.hsqldb.ServerConnection.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+Exception in thread "HSQLDB Connection @2cbc9673" java.lang.OutOfMemoryError: Java heap space
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 59 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 1318 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 769 ms.
+[Server@e05d173]: Startup sequence completed in 2178 ms.
+[Server@e05d173]: 2015-02-17 20:25:46.367 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 6 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 1935 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1415 ms.
+[Server@e05d173]: Startup sequence completed in 3710 ms.
+[Server@e05d173]: 2015-02-18 22:20:49.465 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 7 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 779 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1267 ms.
+[Server@e05d173]: Startup sequence completed in 2064 ms.
+[Server@e05d173]: 2015-02-21 06:27:07.428 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-21 06:29:12.438 SHUTDOWN : System.exit() is called next
+./start-database.sh: line 7:  8006 Killed                  java -classpath hsql/hsqldb-1.7.3.jar org.hsqldb.Server -database.0 hsql/openreports -dbname.0 openreports -database.1 hsql/sample -dbname.1 sample -port 9001 -silent true -trace false
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 6 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 376 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 797 ms.
+[Server@e05d173]: Startup sequence completed in 1188 ms.
+[Server@e05d173]: 2015-02-21 06:32:55.857 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-21 06:34:32.799 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 3 ms.
+[Server@e05d173]: 2015-02-21 06:35:52.492 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 3 ms.
+[Server@e05d173]: 2015-02-21 06:44:01.276 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-21 06:47:27.362 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: Server socket opened successfully in 6 ms.
+[Server@e05d173]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 694 ms.
+[Server@e05d173]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1394 ms.
+[Server@e05d173]: Startup sequence completed in 2104 ms.
+[Server@e05d173]: 2015-02-21 06:53:51.835 HSQLDB server 1.7.3 is online
+[Server@e05d173]: To close normally, connect and execute SHUTDOWN SQL
+[Server@e05d173]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-21 07:05:30.784 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-22 04:38:16.498 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 6 ms.
+[Server@e05d173]: 2015-02-23 17:33:52.471 SHUTDOWN : System.exit() is called next
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@e05d173]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@e05d173]: Startup sequence initiated from main() method
+[Server@e05d173]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@e05d173]: Initiating startup sequence...
+[Server@e05d173]: [Thread[HSQLDB Server @e05d173,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:365)
+	at java.net.ServerSocket.bind(ServerSocket.java:319)
+	at java.net.ServerSocket.<init>(ServerSocket.java:185)
+	at java.net.ServerSocket.<init>(ServerSocket.java:97)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@e05d173]: Initiating shutdown sequence...
+[Server@e05d173]: Shutdown sequence completed in 7 ms.
+[Server@e05d173]: 2015-02-23 18:05:08.606 SHUTDOWN : System.exit() is called next
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: Server socket opened successfully in 115 ms.
+[Server@1fef0b44]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 1982 ms.
+[Server@1fef0b44]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1133 ms.
+[Server@1fef0b44]: Startup sequence completed in 3242 ms.
+[Server@1fef0b44]: 2015-04-08 14:24:48.607 HSQLDB server 1.7.3 is online
+[Server@1fef0b44]: To close normally, connect and execute SHUTDOWN SQL
+[Server@1fef0b44]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: [Thread[HSQLDB Server @1fef0b44,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@1fef0b44]: Initiating shutdown sequence...
+[Server@1fef0b44]: Shutdown sequence completed in 7 ms.
+[Server@1fef0b44]: 2015-04-08 16:31:01.659 SHUTDOWN : System.exit() is called next
+Exception in thread "HSQLDB Connection @7dc999c4" java.lang.OutOfMemoryError: Java heap space
+	at org.hsqldb.lib.HsqlByteArrayOutputStream.reset(Unknown Source)
+	at org.hsqldb.rowio.RowOutputBinary.reset(Unknown Source)
+	at org.hsqldb.rowio.RowInputBinary.resetRow(Unknown Source)
+	at org.hsqldb.Result.read(Unknown Source)
+	at org.hsqldb.ServerConnection.init(Unknown Source)
+	at org.hsqldb.ServerConnection.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: Server socket opened successfully in 136 ms.
+[Server@1fef0b44]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 3787 ms.
+[Server@1fef0b44]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1065 ms.
+[Server@1fef0b44]: Startup sequence completed in 5025 ms.
+[Server@1fef0b44]: 2015-04-24 11:30:41.1 HSQLDB server 1.7.3 is online
+[Server@1fef0b44]: To close normally, connect and execute SHUTDOWN SQL
+[Server@1fef0b44]: From command line, use [Ctrl]+[C] to abort abruptly
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: [Thread[HSQLDB Server @1fef0b44,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@1fef0b44]: Initiating shutdown sequence...
+[Server@1fef0b44]: Shutdown sequence completed in 10 ms.
+[Server@1fef0b44]: 2015-04-24 11:31:01.439 SHUTDOWN : System.exit() is called next
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: [Thread[HSQLDB Server @1fef0b44,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@1fef0b44]: Initiating shutdown sequence...
+[Server@1fef0b44]: Shutdown sequence completed in 12 ms.
+[Server@1fef0b44]: 2015-04-24 11:34:28.178 SHUTDOWN : System.exit() is called next
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: [Thread[HSQLDB Server @1fef0b44,5,main]]: run()/openServerSocket(): 
+java.net.BindException: Address already in use
+	at java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:128)
+	at org.hsqldb.HsqlSocketFactory.createServerSocket(Unknown Source)
+	at org.hsqldb.Server.openServerSocket(Unknown Source)
+	at org.hsqldb.Server.run(Unknown Source)
+	at org.hsqldb.Server.access$000(Unknown Source)
+	at org.hsqldb.Server$ServerThread.run(Unknown Source)
+[Server@1fef0b44]: Initiating shutdown sequence...
+[Server@1fef0b44]: Shutdown sequence completed in 12 ms.
+[Server@1fef0b44]: 2015-04-24 11:36:38.856 SHUTDOWN : System.exit() is called next
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: Server socket opened successfully in 147 ms.
+[Server@1fef0b44]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 2614 ms.
+[Server@1fef0b44]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 1994 ms.
+[Server@1fef0b44]: Startup sequence completed in 4799 ms.
+[Server@1fef0b44]: 2015-04-24 11:52:19.653 HSQLDB server 1.7.3 is online
+[Server@1fef0b44]: To close normally, connect and execute SHUTDOWN SQL
+[Server@1fef0b44]: From command line, use [Ctrl]+[C] to abort abruptly
+./start-database.sh: line 7:  3209 Killed                  java -classpath hsql/hsqldb-1.7.3.jar org.hsqldb.Server -database.0 hsql/openreports -dbname.0 openreports -database.1 hsql/sample -dbname.1 sample -port 9001 -silent true -trace false
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) entered
+[Server@1fef0b44]: [Thread[main,5,main]]: checkRunning(false) exited
+[Server@1fef0b44]: Startup sequence initiated from main() method
+[Server@1fef0b44]: Loaded properties from [/usr/openreports-tomcat/database/server.properties]
+[Server@1fef0b44]: Initiating startup sequence...
+[Server@1fef0b44]: Server socket opened successfully in 20 ms.
+[Server@1fef0b44]: Database [index=0, id=0, db=file:hsql/openreports, alias=openreports] opened sucessfully in 2312 ms.
+[Server@1fef0b44]: Database [index=1, id=1, db=file:hsql/sample, alias=sample] opened sucessfully in 2053 ms.
+[Server@1fef0b44]: Startup sequence completed in 4402 ms.
+[Server@1fef0b44]: 2015-04-24 11:53:27.212 HSQLDB server 1.7.3 is online
+[Server@1fef0b44]: To close normally, connect and execute SHUTDOWN SQL
+[Server@1fef0b44]: From command line, use [Ctrl]+[C] to abort abruptly

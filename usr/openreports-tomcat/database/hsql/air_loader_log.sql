@@ -1,0 +1,1 @@
+select LOAD_ID || '~~' || LAST_RUN  || '~~' || THIS_RUN || '~~' || STATUS || '~~' || SERVER_COUNT || '~~' || SERVER_COMPLETE || '~~' || SERVER_FAILED || '~~' || JOB_COUNT || '~~' || JOB_COMPLETE || '~~' || JOB_FAILED || '~~' || AUDIT_COUNT || '~~' || AUDIT_COMPLETE || '~~' || AUDIT_FAILED from AIR_LOADER_LOG;

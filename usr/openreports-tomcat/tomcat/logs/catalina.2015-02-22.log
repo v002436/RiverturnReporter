@@ -1,0 +1,82 @@
+Feb 22, 2015 4:35:33 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive myschedule.war
+Feb 22, 2015 4:36:37 AM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/myschedule]
+Feb 22, 2015 4:37:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive myschedule.war
+Feb 22, 2015 4:38:18 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/jdk1.6.0_18/jre/lib/amd64/server:/usr/java/jdk1.6.0_18/jre/lib/amd64:/usr/java/jdk1.6.0_18/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Feb 22, 2015 4:38:18 AM org.apache.coyote.http11.Http11BaseProtocol init
+INFO: Initializing Coyote HTTP/1.1 on http-81
+Feb 22, 2015 4:38:18 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1144 ms
+Feb 22, 2015 4:38:18 AM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Feb 22, 2015 4:38:18 AM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/5.5.25
+Feb 22, 2015 4:38:18 AM org.apache.catalina.core.StandardHost start
+INFO: XML validation disabled
+Feb 22, 2015 4:38:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive myschedule.war
+Feb 22, 2015 4:38:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive openreports.war
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.api.impl.ReportEngine <init>
+FINE: ReportEngine created. EngineConfig: EngineConfig: org.eclipse.birt.report.engine.api.EngineConfig.scriptObjects={};BIRT_HOME=;logLevel=ALL;PLATFORM_CONTEXT=org.eclipse.birt.core.framework.PlatformServletContext@190c0fa7;org.eclipse.birt.report.engine.api.EngineConfig.emitterConfigs={html=org.eclipse.birt.report.engine.api.HTMLRenderOption@66d7a9c9};logDest=<null>; 
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportitemGeneration
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadGenerationExtensionDefns
+FINE: Load generation extension: Chart
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportitemPresentation
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadPresentationExtensionDefns
+FINE: Load prsentation extension: Chart
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportitemQuery
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadQueryExtensionDefns
+FINE: Load query extension: Chart
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.emitters
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load html emitter org.eclipse.birt.report.engine.emitter.html
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load pdf emitter org.eclipse.birt.report.engine.emitter.pdf
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load postscript emitter org.eclipse.birt.report.engine.emitter.postscript
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load ppt emitter org.eclipse.birt.report.engine.emitter.ppt
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load xls emitter org.eclipse.birt.report.engine.emitter.prototype.excel
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load doc emitter org.eclipse.birt.report.engine.emitter.word
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load odp emitter org.eclipse.birt.report.engine.emitter.odp
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load ods emitter org.eclipse.birt.report.engine.emitter.prototype.ods
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadEmitterExtensionDefns
+FINE: Load odt emitter org.eclipse.birt.report.engine.emitter.odt
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportEventHandler
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.reportItemPreparation
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.dataExtraction
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadDataExtractionExtensions
+FINE: Load data extraction extension: org.eclipse.birt.report.engine.dataextraction.csv
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager getExtensions
+FINE: Start load extension point: org.eclipse.birt.report.engine.extendedItemFactory
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+FINE: Load extendedItem extension: Crosstab
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+FINE: Load extendedItem extension: CrosstabCell
+Feb 22, 2015 4:38:26 AM org.eclipse.birt.report.engine.extension.internal.ExtensionManager loadExtendedItems
+FINE: Load extendedItem extension: AggregationCell
+Feb 22, 2015 4:38:27 AM org.apache.coyote.http11.Http11BaseProtocol start
+INFO: Starting Coyote HTTP/1.1 on http-81
+Feb 22, 2015 4:38:27 AM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Feb 22, 2015 4:38:27 AM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/19  config=null
+Feb 22, 2015 4:38:27 AM org.apache.catalina.storeconfig.StoreLoader load
+INFO: Find registry server-registry.xml at classpath resource
+Feb 22, 2015 4:38:27 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9068 ms

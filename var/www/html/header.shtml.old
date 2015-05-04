@@ -1,0 +1,82 @@
+<div class="menu"> 
+  
+	  
+	<div id="usermenu">	    
+  		<ul class="vert">   
+  			
+          <li>
+          	<span id="reportsButton" class="yui-button yui-link-button yui-button-hover yui-link-button-hover"> 
+	    		<span class="first-child"> 
+          			<a href="http://sl7-easutil02.savvis.lab/openreports/login.action?userName=AIR&password=R00tw0rd!">
+          				Reports
+          			</a>
+          		</span>
+          	</span> 
+          </li>
+		  
+		  <li>
+          	<span id="reportsButton" class="yui-button yui-link-button yui-button-hover yui-link-button-hover"> 
+	    		<span class="first-child"> 
+          			<a href="http://sl7-easutil02.savvis.lab/single_server_import.html">
+          				Import Single record
+          			</a>
+          		</span>
+          	</span> 
+          </li>
+          
+        <li>
+          	<span id="reportsButton" class="yui-button yui-link-button yui-button-hover yui-link-button-hover"> 
+	    		<span class="first-child"> 
+          			<a href="http://sl7-easutil02.savvis.lab/multiple_server_import.html">
+          				Import All records
+          			</a>
+          		</span>
+          	</span> 
+          </li>
+		  
+		  <li>
+          	<span id="reportsButton" class="yui-button yui-link-button yui-button-hover yui-link-button-hover"> 
+	    		<span class="first-child"> 
+          			<a href="http://sl7-easutil02.savvis.lab/queue/static/visualiser/index.html">
+          				Job Queue
+          			</a>
+          		</span>
+          	</span> 
+          </li>
+           
+          
+          <li>
+          	<span id="reportsButton" class="yui-button yui-link-button yui-button-hover yui-link-button-hover"> 
+	    		<span class="first-child"> 
+          			<a href="http://sl7-easutil02.savvis.lab/index.html">
+          				Home
+          			</a>
+          		</span>
+          	</span> 
+          </li>
+		  
+		   <li>
+          	<span id="reportsButton" class="yui-button yui-link-button yui-button-hover yui-link-button-hover"> 
+	    		<span class="first-child"> 
+          			<a href="http://sl7-easutil02.savvis.lab/cgi-bin/get_air_data.pl?dashboard=Customer">
+          				Dashboard
+          			</a>
+          		</span>
+          	</span> 
+          </li>
+               
+        </ul>
+    </div>
+        
+    
+</div> 
+
+<script type="text/javascript">
+	var menuButton1 = new YAHOO.widget.Button("logoffButton");
+	var menuButton2 = new YAHOO.widget.Button("reportsButton");
+	var menuButton3 = new YAHOO.widget.Button("adminButton");
+	var menuButton4 = new YAHOO.widget.Button("dashboardButton");
+	var menuButton4 = new YAHOO.widget.Button("schedulerButton");
+	var menuButton4 = new YAHOO.widget.Button("userAdminButton");
+</script>    
+

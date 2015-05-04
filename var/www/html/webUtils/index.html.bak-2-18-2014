@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<META HTTP-EQUIV="EXPIRES" CONTENT="-1" />
+<link rel="stylesheet" type="text/css" href="css/gen.css">
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<head>
+<script language="javascript">
+
+var browser_type=navigator.appName
+var browser_version=parseInt(navigator.appVersion)
+// alert(browser_type)
+// alert(browser_version)
+//if IE 6 or >
+if (browser_type == "Microsoft Internet Explorer" && browser_version>=4)
+{
+// 	 alert("You are using IE");
+}
+else
+{
+	alert("You need to use at least IE for this website");
+	window.location.href = "http://www.microsoft.com/ie";
+}
+function GetUserName()
+{
+  var wshell = new ActiveXObject("WScript.Shell");
+  //alert(wshell.ExpandEnvironmentStrings("%USERNAME%"));
+  var username = wshell.ExpandEnvironmentStrings("%USERNAME%");
+  document.getElementById('emailAddy').innerHTML = "Welcome to the site " + username + "@savvis.com";
+}
+</script>
+<title>Welcome To EAS Tools</title>
+</head>
+<body onload="GetUserName()">
+<p id='emailAddy'></p> 
+<h1>Please Choose From The Following Tools</h1>
+<br />
+<hr />
+<table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+	<th>HPSA APX Tools</th>
+	<th>&nbsp;</th>
+	<th>Online Reports</th>
+	<th>&nbsp;</th>
+	<th>Content Migration Tools</th>
+	</tr>
+	<tr>
+	<td colspan="5">&nbsp;</td>
+	</tr>
+	<tr>
+	<td nowrap>
+		<a href="https://dc2-owsaapp02.mgmt.savvis.net/webapp/com.savvis.sma.satool/" target="_blank">HPSA Meta Tool</a><br />
+		<a href="https://dc2-owsaapp02.mgmt.savvis.net/webapp/com.savvis.sma.provision.buildbaremetal/" target="_blank">HPSA Bare Metal Builder</a><br />
+		<a href="https://dc2-owsaapp02.mgmt.savvis.net/webapp/com.savvis.sma.provision.promoteserver/" target="_blank">HPSA Promote Server</a><br />
+		&nbsp;
+	</td>
+    <td width="5%">&nbsp;</td>
+	<td nowrap>
+		<a href="http://eastools.savvis.net/cgi-bin/genReportsPage.py">HPSA Duplicate IP Removal Reports</a><br />
+		&nbsp;
+	</td>
+    <td width="5%">&nbsp;</td>
+	<td nowrap>
+		<a href="importHPSAWindowsPatches.html">Import Windows Patches To an HPSA Core</a><br />
+		<a href="patchPolMigFrm.html">Promote HPSA Windows Patch Policies</a><br />
+		<a href="migSecured/contentMigFrm.html" title="Requires Additional Privileges">Promote HPSA Content</a><br />
+		&nbsp;
+	</td>
+</tr>
+</table>
+<hr />
+<p><a href="https://confluence.savvis.net/x/SQ27Ag" target="_blank">Enterprise Automation Systems Confluence</a></p>
+<p><a href="help.html" target="_blank">Help</a></p>
+</body>
+</html>

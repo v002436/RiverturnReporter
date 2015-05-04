@@ -1,0 +1,7 @@
+LOAD DATA INFILE '/tmp/sa_server.txt'
+REPLACE
+INTO TABLE AIR.sa_job_server
+FIELDS TERMINATED BY '-~~-'
+LINES TERMINATED BY '\n';
+
+SHOW WARNINGs;
