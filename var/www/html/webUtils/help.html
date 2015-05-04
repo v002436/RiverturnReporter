@@ -1,0 +1,69 @@
+<html>
+<head>
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE" />
+<META HTTP-EQUIV="EXPIRES" CONTENT="-1" />
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<style type='text/css'>
+body{background-image: url('images/circuit.gif'); font-family: arial, Arial, Helvetica; background-attachment:fixed;text-align: center};
+h1{color:maroon;text-align:center;}
+p{font-family:arial,Arial,Helvetica;color:maroon;font-size:8px;}
+hr{color:maroon;}
+li{text-align:left;align:center}
+th{text-align:left;font-family: arial, Arial, Helvetica;color:navy;font-size: 70%}
+td{text-align:left;font-family: arial, Arial, Helvetica;color:maroon;font-size: 70%}
+a:link{text-decoration:none; color:maroon }
+a:hover{text-decoration:none; font-weight:bold; color:maroon }
+</style>
+<title>Help Index</title>
+</head>
+<body>
+<h1><a name="tips">Useful Tips</a></h1><hr /><br />
+<table align="center" border="0">
+<tr>
+<th>
+<a name="HPSAWindowsPatches">Import HPSA Windows Patches:</a>
+</th>
+<tr>
+<td>This form will submit a job to OO that calls HPSA to run the /opt/opsware/mm_wordbot/util/populate-opsware-update-library script on the HPSA core.
+The job takes about an hour to run on a good day so sit back and wait for the HPSA job to email you the result.
+If an error is encountered please contact EAS; as something needs to be looked at on the HPSA core.
+</td>
+</tr>
+<tr><th>
+<a name="ptchMigrate">HPSA Patch Policy Migration Tool:</a>
+</th>
+</tr>
+<tr>
+<td>This form will submit a job to OO that calls HPSA to run the /opt/opsware/winpatch_promotion/patchpolpromote.sh script on the HPSA core.
+The job shold only about an half hour to run on a good day so sit back and wait for the HPSA job to email you the result.
+If an error is encountered please contact EAS; as something needs to be looked at on the HPSA core.
+</td>
+</tr>
+<tr><th>
+<a name="contentMig">HPSA Content Migration Tool:</a>
+</th></tr>
+<tr><td>Example: You want to import the following software policies from: <br />
+<b>/SAVVIS/Software Polices/Linux/RHEL Server 5/All/Application Engineering/OpenLogic-Apache_HTTPD/RHEL5_OpenLogic-Apache-HTTP-Worker-v2.2.22/ <br />
+RHEL5_OpenLogic-Apache-HTTP-Worker-v2.2.22_x86_64_EN <br />        
+RHEL5_OpenLogic-Apache-HTTP-PHP-Worker-v2.2.22_x86_64_EN</b> <br />
+You will only add the base folder once. All content from the base folder will by synced.<br />
+<b>/SAVVIS/Software Polices/Linux/RHEL Server 5/All/Application Engineering/OpenLogic-Apache_HTTPD/RHEL5_OpenLogic-Apache-HTTP-Worker-v2.2.22/ <br/></b>
+</td></tr>
+<tr><th>
+<a name="saMetaTool">HPSA Meta Tool:</a>
+</th></tr>
+<tr><td><a href="https://confluence.savvis.net/x/_lyMAg">Confluence Page</a></td></tr>
+<tr><th>
+<a name="saBMM">HPSA Bare Metal Builder:</a>
+</th></tr>
+<tr><td><a href="https://confluence.savvis.net/x/xx5IAg">Confluence Page</a></td></tr>
+<tr><th>
+<a name="saPS">HPSA Promote Server:</a>
+</th></tr>
+<tr><td><a href="https://confluence.savvis.net/x/YQEMAg">Confluence Page</a></td></tr>
+</table>
+</table>
+<hr />
+</body>
+</html>
+

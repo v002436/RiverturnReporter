@@ -1,0 +1,38 @@
+a:link       { text-decoration:none; color:maroon }
+a:active     { text-decoration:none; color:green }
+a:visited    { text-decoration:none; color:maroon }
+a:hover      { text-decoration:none; font-weight:bold; color:maroon }
+p            { align:center; color:maroon }
+img          { align:center;height:200px;width:400px; }
+body         { background-image: url('../images/circuit.gif'); font-family: arial, Arial, Helvetica; background-attachment:fixed;text-align: center }
+table        { table-border-color-light:rgb(0, 0, 128); table-border-color-dark:rgb(128, 128, 0); width:auto; }
+th           { font-family: arial, Arial, Helvetica: text-align:left; width:auto; color:maroon }
+td           { font-family: arial, Arial, Helvetica; text-align:left; color:maroon }
+h1           { color:maroon; font:normal 20pt Arial }
+h2           { font-family: arial, Arial, Helvetica }
+h3           { font-family: arial, Arial, Helvetica }
+h4           { font-family: arial, Arial, Helvetica }
+h5           { font-family: arial, Arial, Helvetica }
+h6           { font-family: arial, Arial, Helvetica }
+hr           { color: maroon }
+select       { font-family: arial, Arial, Helvetica; color:maroon }
+input        { font-family: arial, Arial, Helvetica; color:maroon }
+li           { text-align: center; font-family: arial, Arial, Helvetica; color:maroon}
+caption      {  }
+button       {  }
+label        {  }
+textarea     {  }
+fieldset     {  }
+legend       {  }
+/* Classes--- Example --- <div class="center">"something here"</div>*/ 
+.center      { margin:auto; width:70%; align:center }
+.back        { position:absolute; top:25px; left:100px }
+.online	     { position:absolute; top:50px; left:420px }
+.nocenter    { text-align:center; font-size:smaller; font-style:normal; font-variant:normal; width:auto; }
+.tdcenter    { text-align:center }
+.tdright     { text-align:right }
+.alleft      { text-align:left }
+.rounded     { border: 1; top left no-repeat; width:190px; height: 10px; padding: 3px 5px;	font-size: 85%}
+#reset       { color:maroon; background-color:#ddd; }
+#submit      { color:maroon; background-color:#ddd; }
+

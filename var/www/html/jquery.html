@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function getResponse()
+            {
+                var uname=document.testform.uname.value;
+
+                $.ajax({
+                type: 'POST',
+                url: 'http://10.12.132.169/jquery.php?name='+uname,
+                data:{},
+                dataType: 'json',
+                success: function(data) 
+                { alert('got here with data'); },
+                error: function() { alert('something bad happened'); }
+                });
+
+            }
+        </script>
+        <title>Test</title>
+    </head>
+    <body>
+        <form name="testform" method="post">
+            <div id="main" border="5" style="width:100%; height:100%;">
+                <div id="sub" style="width:50%; height:50%;align:center;">
+                    Username:<input type="text" name="uname">
+                    <input type="button" name="ok" value="submit" onclick="getResponse();">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

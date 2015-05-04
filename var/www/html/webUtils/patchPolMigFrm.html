@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="EXPIRES" CONTENT="0" />
+<link rel="stylesheet" type="text/css" href="css/gen.css">
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<script type="text/javascript">
+function confirmSubmit()
+{
+var agree=confirm("Are you sure you wish to continue?");
+if (agree)
+	return true ;
+else
+	return false ;
+}
+var browser_type=navigator.appName
+var browser_version=parseInt(navigator.appVersion)
+// alert(browser_type)
+// alert(browser_version)
+//if IE 6 or >
+if (browser_type == "Microsoft Internet Explorer" && browser_version>=4)
+{
+// 	 alert("You are using IE");
+}
+else
+{
+	alert("You need to use at least IE for this website");
+	window.location.href = "http://www.microsoft.com/ie";
+}
+function getEmailAddress()
+{
+  var wshell = new ActiveXObject("WScript.Shell");
+  //alert(wshell.ExpandEnvironmentStrings("%USERNAME%"));
+  var username = wshell.ExpandEnvironmentStrings("%USERNAME%");
+  //alert(username + "@savvis.com");
+	document.getElementById("toEmail").value = username + "@savvis.com"
+}
+</script>
+<title>HPSA Windows Patch Policy Migration Tool</title>
+</head>
+<body onload="getEmailAddress()">
+<form name="syncPatchPolicies" action="../cgi-bin/syncPatchPolicies.py" onsubmit="return(confirmSubmit())" method="post" target="_self">
+<div class="center">
+<a href="javascript:history.back(1)" title="Click here to go BACK">Go Back</a>
+<p>
+<h1>HPSA Windows Patch Policies Migration Tool</h1>
+<br />
+<hr />
+<br /><br />
+<table border="0">
+<tr>
+<td>Publish Patch Policies from Lab to QA</td>
+<td><input type="radio" name="dest" value="QA" checked/></td>
+</tr>
+<tr>
+<td>Publish Patch Policies From Lab to Prod</td>
+<td><input type="radio" name="dest" value="Prod" /></td>
+</tr>
+<td><input id="toEmail" type="hidden" name="toEmail" value=""> </td><tr>
+</tr>
+<tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr></tr>
+<tr>
+<td colspan="2" class="tdcenter"><input id="submit" type="submit" value="Submit" /></td>
+</tr>
+</form>
+</tr>
+</table>
+<br /><br /><br />
+<hr />
+<p><a href="help.html#ptchMigrate" target="_blank">Help</a> </p>
+</p>
+</div>
+</body>
+</html>
+

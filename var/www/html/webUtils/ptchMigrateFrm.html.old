@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<META HTTP-EQUIV="EXPIRES" CONTENT="0" />
+<link rel="stylesheet" type="text/css" href="css/gen.css">
+<link rel="shortcut icon" href="images/favicon.ico"/>
+<script type="text/javascript">
+function confirmSubmit()
+{
+var agree=confirm("Are you sure you wish to continue?");
+if (agree)
+	return true ;
+else
+	return false ;
+}
+/***********************************************
+* Drop Down Date select script- by JavaScriptKit.com
+* This notice MUST stay intact for use
+* Visit JavaScript Kit at http://www.javascriptkit.com/ for this script and more
+* http://www.javascriptkit.com/script/script2/curdateform2.shtml
+***********************************************/
+
+var monthtext=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec'];
+
+function populatedropdown(dayfield, monthfield, yearfield){
+var today=new Date()
+var dayfield=document.getElementById(dayfield)
+var monthfield=document.getElementById(monthfield)
+var yearfield=document.getElementById(yearfield)
+for (var i=0; i<31; i++)
+dayfield.options[i]=new Option(i, i+1)
+dayfield.options[today.getDate()]=new Option(today.getDate(), today.getDate(), true, true) //select today's day
+for (var m=0; m<12; m++)
+monthfield.options[m]=new Option(monthtext[m], monthtext[m])
+monthfield.options[today.getMonth()]=new Option(monthtext[today.getMonth()], monthtext[today.getMonth()], true, true) //select today's month
+var thisyear=today.getFullYear()
+for (var y=0; y<20; y++){
+yearfield.options[y]=new Option(thisyear, thisyear)
+thisyear+=1
+}
+yearfield.options[0]=new Option(today.getFullYear(), today.getFullYear(), true, true) //select today's year
+}
+</script>
+<title>Patch Migration</title>
+</head>
+<body onload="this.form.reset()">
+<form name="syncPatchContent" action="..\cgi-bin\processPatchMigrate.cgi" onsubmit="return(confirmSubmit())" method="post" target="_self">
+<div class="center">
+<a href="javascript:history.back(1)" title="Click here to go BACK">Go Back</a>
+<p>
+<h1>SA Patch Migration Utility</h1>
+<br />
+<hr />
+<br /><br />
+<table border="0">
+<tr>
+<td>Publish from Lab to Qa</td>
+<td><input type="radio" name="dest" value="Lab-QA" checked/></td>
+</tr>
+<tr>
+<td>Publish from Qa to Prod</td>
+<td><input type="radio" name="dest" value="QA-Prod" /></td>
+</tr>
+<tr>
+<td>Savvis Case Number</td>
+<td><input class="rounded" type="text" name="casenumber" value="000000000" maxlength="14" size="17" onfocus="if(this.value == '000000000') { this.value = ''; }" /></td>
+</tr>
+<tr>
+<td>Select which patch policies to sync</td>
+<td>
+<select size="4" name="patchPoliciesToSync" alt="You can choose multiple" multiple>
+<option value="W2K3_StandardSAVVISPolicy_x86_EN">W2K3_StandardSAVVISPolicy_x86_EN</option>
+<option value="W2K3_StandardSAVVISPolicy_x64_EN">W2K3_StandardSAVVISPolicy_x64_EN</option>
+<option value="W2K8_StandardSAVVISPolicy_x64_EN">W2K8_StandardSAVVISPolicy_x64_EN</option>
+<option value="W2K8R2_StandardSAVVISPolicy_x64_EN">W2K8R2_StandardSAVVISPolicy_x64_EN</option>
+</select> 
+</td>
+</tr>
+<tr>
+<td>Please input the last patch approval date</td>
+<td>
+<select id="daydropdown" name="daydropdown">
+</select> 
+<select id="monthdropdown" name="monthdropdown">
+</select> 
+<select id="yeardropdown" name="yeardropdown">
+</select> 
+<script type="text/javascript">
+//populatedropdown(id_of_day_select, id_of_month_select, id_of_year_select)
+window.onload=function(){
+populatedropdown("daydropdown", "monthdropdown", "yeardropdown")
+}
+</script>
+</td>
+</tr>
+<tr></tr>
+<tr>
+<td></td>
+<td class="tdcenter"><input id="reset" type="reset" value="Reset"><input id="submit" type="submit" value="Submit" /></td>
+</tr>
+</form>
+</tr>
+</table>
+<br /><br /><br />
+<hr />
+</p>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+LOAD DATA INFILE '/tmp/audit_results.txt'
+REPLACE
+INTO TABLE AIR.sa_audit_results
+FIELDS TERMINATED BY '~~'
+LINES TERMINATED BY '\n';
+
+SHOW WARNINGs;
