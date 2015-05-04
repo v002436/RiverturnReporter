@@ -1,0 +1,27 @@
+{ local $opt = {
+         'mysql_config' => '/usr/local/mysql-5.6.16-osx10.7-x86_64/bin/mysql_config',
+         'embedded' => '',
+         'ssl' => 0,
+         'ldflags' => '',
+         'nocatchstderr' => 0,
+         'libs' => '-L/usr/local/mysql-5.6.16-osx10.7-x86_64/lib -lmysqlclient',
+         'testhost' => '',
+         'nofoundrows' => 0,
+         'testport' => '',
+         'cflags' => '-I/usr/local/mysql-5.6.16-osx10.7-x86_64/include  -Os -g -fno-strict-aliasing -arch x86_64',
+         'testdb' => 'test',
+         'testuser' => 'patg',
+         'testpassword' => '',
+         'testsocket' => ''
+       };
+$::test_host = $opt->{'testhost'};
+$::test_port = $opt->{'testport'};
+$::test_user = $opt->{'testuser'};
+$::test_socket = $opt->{'testsocket'};
+$::test_password = $opt->{'testpassword'};
+$::test_db = $opt->{'testdb'};
+$::test_dsn = "DBI:mysql:$::test_db";
+$::test_dsn .= ";mysql_socket=$::test_socket" if $::test_socket;
+$::test_dsn .= ":$::test_host" if $::test_host;
+$::test_dsn .= ":$::test_port" if $::test_port;
+} 1;

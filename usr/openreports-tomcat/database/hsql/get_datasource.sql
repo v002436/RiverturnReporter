@@ -1,0 +1,1 @@
+select DATASOURCE_ID, '~~', NAME, '~~',DRIVER, '~~',URL, '~~',USERNAME, '~~',PASSWORD, '~~',MAX_IDLE, '~~',MAX_ACTIVE, '~~',MAX_WAIT, '~~',VALIDATION_QUERY, '~~',JNDI from report_datasource where lower(driver) like '%oracle%';

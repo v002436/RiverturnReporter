@@ -1,0 +1,12 @@
+Apr 22, 2014 1:21:22 AM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 5635
+Apr 22, 2014 1:21:25 AM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #256
+Apr 22, 2014 1:21:25 AM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1
+Apr 22, 2014 2:25:57 AM org.apache.jk.common.MsgAjp processHeader
+SEVERE: BAD packet signature 5635
+Apr 22, 2014 2:26:00 AM org.apache.jk.common.ChannelSocket receive
+WARNING: can't read body, waited #256
+Apr 22, 2014 2:26:00 AM org.apache.jk.common.ChannelSocket processConnection
+WARNING: Closing ajp connection -1

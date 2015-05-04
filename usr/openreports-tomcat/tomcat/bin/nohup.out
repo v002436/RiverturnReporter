@@ -1,0 +1,12 @@
+Usage: catalina.sh ( commands ... )
+commands:
+  debug             Start Catalina in a debugger
+  debug -security   Debug Catalina with a security manager
+  jpda start        Start Catalina under JPDA debugger
+  run               Start Catalina in the current window
+  run -security     Start in the current window with security manager
+  start             Start Catalina in a separate window
+  start -security   Start in a separate window with security manager
+  stop              Stop Catalina
+  stop -force       Stop Catalina (followed by kill -KILL)
+  version           What version of tomcat are you running?

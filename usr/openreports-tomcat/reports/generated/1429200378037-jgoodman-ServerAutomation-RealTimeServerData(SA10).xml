@@ -1,0 +1,30 @@
+<reportGenerationInfo>
+  <userName>jgoodman</userName>
+  <reportName>Server Automation - Real Time Server Data (SA10)</reportName>
+  <reportDescription>Test Scheduled Report</reportDescription>
+  <reportFileName>1429200378037-jgoodman-ServerAutomation-RealTimeServerData(SA10).xls</reportFileName>
+  <deliveryMethod>fileSystemDeliveryMethod</deliveryMethod>
+  <runDate>2015-04-16 11:06:18.37 GMT-05:00</runDate>
+  <parameters>
+    <entry>
+      <string>OPENREPORTS_USER_NAME</string>
+      <string>jgoodman</string>
+    </entry>
+    <entry>
+      <string>OPENREPORTS_USER_ID</string>
+      <int>7</int>
+    </entry>
+    <entry>
+      <string>OPENREPORTS_REPORT_DIR</string>
+      <file>/usr/openreports-tomcat/reports</file>
+    </entry>
+    <entry>
+      <string>OPENREPORTS_IMAGE_DIR</string>
+      <file>/usr/openreports-tomcat/reports/images</file>
+    </entry>
+    <entry>
+      <string>OPENREPORTS_USER_EXTERNALID</string>
+      <string>jgoodman</string>
+    </entry>
+  </parameters>
+</reportGenerationInfo>

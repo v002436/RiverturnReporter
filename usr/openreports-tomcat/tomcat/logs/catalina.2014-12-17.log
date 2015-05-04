@@ -1,0 +1,25 @@
+Dec 17, 2014 8:10:26 PM org.apache.coyote.http11.Http11BaseProtocol pause
+INFO: Pausing Coyote HTTP/1.1 on http-8181
+Dec 17, 2014 8:10:26 PM org.apache.catalina.connector.Connector pause
+SEVERE: Protocol handler pause failed
+java.net.SocketException: Network is unreachable
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+	at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+	at java.net.Socket.connect(Socket.java:525)
+	at java.net.Socket.connect(Socket.java:475)
+	at java.net.Socket.<init>(Socket.java:372)
+	at java.net.Socket.<init>(Socket.java:215)
+	at org.apache.jk.common.ChannelSocket.unLockSocket(ChannelSocket.java:492)
+	at org.apache.jk.common.ChannelSocket.pause(ChannelSocket.java:289)
+	at org.apache.jk.server.JkMain.pause(JkMain.java:681)
+	at org.apache.jk.server.JkCoyoteHandler.pause(JkCoyoteHandler.java:163)
+	at org.apache.catalina.connector.Connector.pause(Connector.java:1032)
+	at org.apache.catalina.core.StandardService.stop(StandardService.java:489)
+	at org.apache.catalina.core.StandardServer.stop(StandardServer.java:734)
+	at org.apache.catalina.startup.Catalina.stop(Catalina.java:602)
+	at org.apache.catalina.startup.Catalina$CatalinaShutdownHook.run(Catalina.java:645)
+Dec 17, 2014 8:10:27 PM org.apache.catalina.core.StandardService stop
+INFO: Stopping service Catalina
